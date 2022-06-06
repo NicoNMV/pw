@@ -8,6 +8,9 @@ botao.addEventListener("click", function(){
     
     console.log($dadosAluno.vNome);
     console.log($dadosAluno.vN1);
+    console.log($dadosAluno.vN2);
+    console.log($dadosAluno.vN3);
+    console.log($dadosAluno.media);
 });
 
 function novoAluno(formulario){
@@ -49,7 +52,11 @@ function novoAluno(formulario){
     else{
         let $vetorAluno = {
             vNome:formulario.querySelector("#nome").value,
-            vN1:formulario.querySelector("#n1").value.replace(",",",")
+            vN1:formulario.querySelector("#n1").value.replace(",",","),
+            vN2:formulario.querySelector("#n2").value.replace(",",","),
+            vN3:formulario.querySelector("#n3").value.replace(",",","),
+
+            media:$calcularMedia(formulario.querySelector("#n1").value.replace(",",","),formulario.querySelector("#n2").value.replace(",",","),formulario.querySelector("#n3").value.replace(",",","))
         }
         return $vetorAluno;
     }

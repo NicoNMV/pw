@@ -6,7 +6,7 @@ let $TituloPagina = document.querySelector("#titulo");
 /* a propriedade text.content 
 define ou retorna o conteúdo de texto*/
 
-$TituloPagina.textContent = "ETEC Professor Basiledes de Godoy";
+$TituloPagina.textContent = "ETEC Professor Basilides de Godoy";
 
 let $tabela = document.querySelector("#tabela-aluno");
 // console.log($tabela);

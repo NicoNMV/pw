@@ -9,8 +9,8 @@ main {
 }
 
 header {
-  background-color: #eacc5d;
-  color: #003366;
+  background-color: red;
+  color: black;
   padding: 0px 0px 10px 0px;
 }
 
@@ -39,7 +39,7 @@ h4 {
   border: 1px solid #52b7bd;
   border-radius: 5px;
 	padding: 10px;
-  background-color: #d3ffce;
+  background-color: #f83838;
 }
 
 table{
@@ -67,7 +67,7 @@ input {
 }
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: black; /* Green */
     border: none;
     border-radius: 5px;
     color: white;
@@ -76,7 +76,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px white;
 }
 
 .reprovado{
